@@ -1,0 +1,25 @@
+{
+  "name": "toolchain-gccmipselfrda8955",
+  "version": "4.4.2",
+  "description": "GNU toolchain for RDA/XCPU processors",
+  "keywords": [
+    "toolchain",
+    "build tools",
+    "compiler",
+    "assembler",
+    "linker",
+    "preprocessor",
+    "mips",
+    "rda8955",
+    "xcpu"
+  ],
+  "homepage": "http://rdamicro.com",
+  "license": "GPL-2.0-or-later",
+  "system": [
+    "linux_x86_64"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://gcc.gnu.org/git/gcc.git"
+  }
+}
