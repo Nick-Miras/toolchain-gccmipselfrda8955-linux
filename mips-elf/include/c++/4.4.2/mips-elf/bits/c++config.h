@@ -355,7 +355,7 @@ _GLIBCXX_END_NAMESPACE
 /* #undef _GLIBCXX_HAVE_CEILL */
 
 /* Define to 1 if you have the <complex.h> header file. */
-/* #undef _GLIBCXX_HAVE_COMPLEX_H */
+#define _GLIBCXX_HAVE_COMPLEX_H 1
 
 /* Define to 1 if you have the `cosf' function. */
 #define _GLIBCXX_HAVE_COSF 1
@@ -430,7 +430,7 @@ _GLIBCXX_END_NAMESPACE
 /* #undef _GLIBCXX_HAVE_FABSL */
 
 /* Define to 1 if you have the <fenv.h> header file. */
-/* #undef _GLIBCXX_HAVE_FENV_H */
+#define _GLIBCXX_HAVE_FENV_H 1
 
 /* Define to 1 if you have the `finite' function. */
 /* #undef _GLIBCXX_HAVE_FINITE */
@@ -728,19 +728,19 @@ _GLIBCXX_END_NAMESPACE
 #define _GLIBCXX_HAVE_UNISTD_H 1
 
 /* Defined if vfwscanf exists. */
-#define _GLIBCXX_HAVE_VFWSCANF 1
+/* #undef _GLIBCXX_HAVE_VFWSCANF */
 
 /* Defined if vswscanf exists. */
-#define _GLIBCXX_HAVE_VSWSCANF 1
+/* #undef _GLIBCXX_HAVE_VSWSCANF */
 
 /* Defined if vwscanf exists. */
-#define _GLIBCXX_HAVE_VWSCANF 1
+/* #undef _GLIBCXX_HAVE_VWSCANF */
 
 /* Define to 1 if you have the <wchar.h> header file. */
 #define _GLIBCXX_HAVE_WCHAR_H 1
 
 /* Defined if wcstof exists. */
-#define _GLIBCXX_HAVE_WCSTOF 1
+/* #undef _GLIBCXX_HAVE_WCSTOF */
 
 /* Define to 1 if you have the <wctype.h> header file. */
 #define _GLIBCXX_HAVE_WCTYPE_H 1
@@ -1059,11 +1059,11 @@ _GLIBCXX_END_NAMESPACE
 
 /* Define if C99 functions in <inttypes.h> should be imported in
    <tr1/cinttypes> in namespace std::tr1. */
-#define _GLIBCXX_USE_C99_INTTYPES_TR1 1
+/* #undef _GLIBCXX_USE_C99_INTTYPES_TR1 */
 
 /* Define if wchar_t C99 functions in <inttypes.h> should be imported in
    <tr1/cinttypes> in namespace std::tr1. */
-#define _GLIBCXX_USE_C99_INTTYPES_WCHAR_T_TR1 1
+/* #undef _GLIBCXX_USE_C99_INTTYPES_WCHAR_T_TR1 */
 
 /* Define if C99 functions or macros in <math.h> should be imported in <cmath>
    in namespace std. */
@@ -1075,7 +1075,7 @@ _GLIBCXX_END_NAMESPACE
 
 /* Define if C99 types in <stdint.h> should be imported in <tr1/cstdint> in
    namespace std::tr1. */
-#define _GLIBCXX_USE_C99_STDINT_TR1 1
+/* #undef _GLIBCXX_USE_C99_STDINT_TR1 */
 
 /* Defined if clock_gettime has monotonic clock support. */
 /* #undef _GLIBCXX_USE_CLOCK_MONOTONIC */
@@ -1106,7 +1106,7 @@ _GLIBCXX_END_NAMESPACE
 /* #undef _GLIBCXX_USE_SCHED_YIELD */
 
 /* Define if code specialized for wchar_t should be used. */
-#define _GLIBCXX_USE_WCHAR_T 1
+/* #undef _GLIBCXX_USE_WCHAR_T */
 
 #if defined (_GLIBCXX_HAVE__ACOSF) && ! defined (_GLIBCXX_HAVE_ACOSF)
 # define _GLIBCXX_HAVE_ACOSF 1
